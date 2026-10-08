@@ -1,0 +1,68 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John's Creative Hub - Tsakane</title>
+<style>
+  body{font-family:Arial, sans-serif; margin:0; background:#0f0f0f; color:#fff}
+  header{background:linear-gradient(90deg,#ff006a,#ffcc00); padding:30px; text-align:center; color:#000}
+  header h1{margin:0; font-size:36px}
+  .section{padding:30px; max-width:900px; margin:auto}
+  .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px}
+  .card{background:#1c1c1c; padding:20px; border-radius:12px; border:1px solid #333}
+  .card h3{color:#ffcc00; margin-top:0}
+  .price{color:#00ff88; font-weight:bold}
+  a.btn{display:inline-block; background:#ff006a; color:#fff; padding:12px 20px; border-radius:8px; text-decoration:none; margin-top:10px}
+  footer{background:#111; text-align:center; padding:20px; color:#777}
+</style>
+</head>
+<body>
+<header>
+  <h1>JOHN'S CREATIVE HUB</h1>
+  <p>4-in-1: Studio • Fashion • Study & Gaming • Tech Repair | Tsakane</p>
+  <p>073 703 3799 | johnmanzini92@gmail.com</p>
+  <a class="btn" href="https://wa.me/27737033799">WhatsApp Us</a>
+</header>
+
+<div class="section">
+  <h2>Our Shops</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🎙️ Recording Studio</h3>
+      <p>Affordable recording for local artists</p>
+      <p class="price">R100 / hour</p>
+      <p>Beats, Mix & Master, Voice-over</p>
+    </div>
+    <div class="card">
+      <h3>👕 Thrift Fashion</h3>
+      <p>Second-hand clothes, shoes, caps</p>
+      <p class="price">From R50 - R300</p>
+      <p>New bale every Friday</p>
+    </div>
+    <div class="card">
+      <h3>🎮 Study & Gaming</h3>
+      <p>Homework, Wi-Fi, Printing & PS4</p>
+      <p class="price">R20 / 30min Gaming</p>
+      <p>Safe space for youth</p>
+    </div>
+    <div class="card">
+      <h3>📱 Tech Lab</h3>
+      <p>Phone & PC Repair + Gadgets</p>
+      <p class="price">Screens from R350</p>
+      <p>Sales & Repairs while you wait</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>We Are Hiring & Growing</h2>
+  <p>Looking for 3 experienced youth: Studio Operator, Fashion Assistant, Gaming/Study Supervisor. Seeking SEDFA/TREP support for Wi-Fi & equipment.</p>
+</div>
+
+<footer>
+  <p>© 2026 John's Creative Hub - Tsakane, Ekurhuleni - 0737033799</p>
+</footer>
+</body>
+</html>
